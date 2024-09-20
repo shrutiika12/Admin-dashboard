@@ -35,16 +35,10 @@
 }
 
 .container .box {
-
     padding-top: 20px;
-
 }
 
-
 /* 2nd part */
-
-
-
 input {
     height: 20px;
     width: 700px;
@@ -108,13 +102,14 @@ button {
     width: 83vw;
     background-color: #ececec;
 }
-.image{
+
+.image {
     margin-left: 230px;
     margin-top: 60px;
 }
+
 .site {
     display: flex;
-    flex-direction: column;
 }
 
 .card {
@@ -137,9 +132,10 @@ button {
 }
 
 .update {
-    height: 360px;
-    width: 300px;
+    height: 280px;
+    width: 250px;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
+    padding: 40px;
 }
