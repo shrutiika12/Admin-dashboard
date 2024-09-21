@@ -96,6 +96,10 @@ button {
     grid-template-columns: 430px 430px;
     grid-template-rows: 270px 270px 270px;
 }
+.text{
+    border: 2px solid blue;
+    width: 3px;
+}
 
 .cards {
     height: 60.5vw;
@@ -104,8 +108,8 @@ button {
 }
 
 .image {
-    margin-left: 230px;
-    margin-top: 60px;
+    margin-left: 234px;
+    margin-top: 70px;
 }
 
 .site {
@@ -118,6 +122,18 @@ button {
     background-color: white;
     border-radius: 10px;
     padding: 40px;
+    position: relative;
+}
+.card::before{
+    content:" ";
+    height:242px ;
+    width: 15px;
+    margin-left: -42px;
+    margin-top: -42px;
+    border-radius:10px 0 0 10px ;
+    background-color:#a49dbd;
+    position: absolute;
+
 }
 
 .display {
